@@ -1,0 +1,15 @@
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/Exercise.csproj.AssemblyReference.cache
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/Exercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/Exercise.AssemblyInfoInputs.cache
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/Exercise.AssemblyInfo.cs
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/Exercise.csproj.CoreCompileInputs.cache
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/bin/Debug/net6.0/Exercise
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/bin/Debug/net6.0/Exercise.deps.json
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/bin/Debug/net6.0/Exercise.runtimeconfig.json
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/bin/Debug/net6.0/Exercise.dll
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/bin/Debug/net6.0/Exercise.pdb
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/Exercise.dll
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/refint/Exercise.dll
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/Exercise.pdb
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/Exercise.genruntimeconfig.cache
+/Users/s2300304/Library/Application Support/tmc/vscode/hbc-csharp-basics-dotnet23/part_02-008_numbers_and_calculations/src/Exercise008/obj/Debug/net6.0/ref/Exercise.dll
