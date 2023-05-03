@@ -40,10 +40,6 @@ namespace Exercise011
 
             return false;
         }
-
-
-
-
         public override string ToString()
         {
             return this.artist + ": " + this.name + " (" + this.durationInSeconds + " s)";

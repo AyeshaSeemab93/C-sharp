@@ -3,9 +3,17 @@ course = 'hbc-csharp-basics-dotnet23'
 id = 201758
 checksum = 'f9c8520e3e0e7b470b630068a1f72cda'
 
+[exercises.part_01-002_bonnie_tyler]
+id = 201754
+checksum = '9449337ef01040843c1d29ad5c724a53'
+
 [exercises.part_01-003_bonnie_tyler_line_change]
 id = 201778
 checksum = '31c19bb997bf8bcff1ef98c3e3db3332'
+
+[exercises.part_01-004_first_variable]
+id = 201784
+checksum = '83feca93a6faa7a8a52c6e5d1d1e95d2'
 
 [exercises.part_01-005_ada_lovelace]
 id = 201769
@@ -15,9 +23,29 @@ checksum = '93ff277a4f7e0aecb1d96a0f4ac1ee57'
 id = 201776
 checksum = 'e4b7d8860b0840ba916f1be451054e45'
 
+[exercises.part_01-007_triple_hello]
+id = 201753
+checksum = 'ec32d53d5fd8ca5385e49817cc8cfbc1'
+
+[exercises.part_01-008_greeting]
+id = 201755
+checksum = '3e9e0daf621be89b2da4b00678781a53'
+
+[exercises.part_01-009_conversation]
+id = 201763
+checksum = '9931e6bd67eaa1ff67ad8edebd2007f6'
+
 [exercises.part_01-010_name_profession]
 id = 201765
 checksum = '85aa3f09f8e751cdffe9af2bbed10a54'
+
+[exercises.part_01-011_print_variables]
+id = 201783
+checksum = '2786daec107d7a981f809bc08b211799'
+
+[exercises.part_01-012_print_integer]
+id = 201771
+checksum = '0bb4160251452400fd056c4e0c96b476'
 
 [exercises.part_01-013_print_double]
 id = 201762
@@ -34,6 +62,10 @@ checksum = '5e80bcf12d1cf82479d0665497d81920'
 [exercises.part_01-016_seconds_in_days]
 id = 201756
 checksum = '1a88c905d93f65db88a1e7e10350be0e'
+
+[exercises.part_01-017_input_two_integers]
+id = 201774
+checksum = '4f6f5a157c585f8fe3b0e759a04f92e8'
 
 [exercises.part_01-018_input_three_integers]
 id = 201789
@@ -55,6 +87,14 @@ checksum = '197063b0f463226b44a98aea87d5fa43'
 id = 201779
 checksum = '796304254313a56a17a8a669309b2531'
 
+[exercises.part_01-023_tiny_calculator]
+id = 201767
+checksum = 'fda63f0140c29341d987841f99044e57'
+
+[exercises.part_01-024_speeding]
+id = 201781
+checksum = '2eec3c3066e489dc598118717b9eb692'
+
 [exercises.part_01-025_orwell]
 id = 201775
 checksum = '8482a67a82d157c614cce8a8c0a20e14'
@@ -71,6 +111,10 @@ checksum = 'cdc0bd29848175b01f89c55578ea6a5d'
 id = 201752
 checksum = 'c3b3734e8432aaa12ec840056b15450e'
 
+[exercises.part_01-029_larger_number]
+id = 201780
+checksum = 'f0140ba917b2d5e189a0fb0a798e4c08'
+
 [exercises.part_01-030_course_grading]
 id = 201770
 checksum = '32e46fa92e7ed6504783abb81b2d224c'
@@ -79,17 +123,41 @@ checksum = '32e46fa92e7ed6504783abb81b2d224c'
 id = 201772
 checksum = '2e0836faff439e748eaee63e3ce53883'
 
+[exercises.part_01-032_enter_friend]
+id = 201777
+checksum = 'f122e21130072b414f879639a11ba828'
+
 [exercises.part_01-033_echo]
 id = 201766
 checksum = '7b4ae5efffda5bba79423571f3f7028d'
+
+[exercises.part_01-034_continue]
+id = 201764
+checksum = '3bb770e85fd57ba2ccdfe39706e05c48'
+
+[exercises.part_01-035_answer_to_life]
+id = 201759
+checksum = 'f6473484c297d23fd20d1c4d81b4ca97'
+
+[exercises.part_01-036_power_of_positivity]
+id = 201788
+checksum = '16e4b6a96697a1368cca0d25806e190a'
 
 [exercises.part_01-037_counting_numbers]
 id = 201782
 checksum = 'c04a7c82bba3e2d4c108b99914370182'
 
+[exercises.part_01-038_counting_negatives]
+id = 201750
+checksum = 'a8ca6946d810c11dc457936d02ef9629'
+
 [exercises.part_01-039_sum_of_numbers]
 id = 201760
 checksum = '62e430362d8ae2535e8db2b18afa04ff'
+
+[exercises.part_01-040_amount_and_sum]
+id = 201786
+checksum = '10fae8748afab49e7bcc819f32a5fcf4'
 
 [exercises.part_02-001_second_power]
 id = 201663

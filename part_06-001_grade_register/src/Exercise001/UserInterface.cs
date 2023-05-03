@@ -15,6 +15,16 @@ namespace Exercise001
             ReadPoints();
             Console.WriteLine("");
             PrintGradeDistribution();
+            GradeRegister register = new GradeRegister();
+
+
+
+            register.AddGradeBasedOnPoints(93);
+            register.AddGradeBasedOnPoints(91);
+            register.AddGradeBasedOnPoints(92);
+            Console.WriteLine("The average of points: " + register.AverageOfPoints());
+            Console.WriteLine("The average of grades: " + register.AverageOfGrades());
+
         }
 
         public void ReadPoints()
@@ -51,6 +61,9 @@ namespace Exercise001
                 grade = grade - 1;
             }
             // Print average of points & grades
+
+
+
 
         }
         public static void PrintStars(int stars)

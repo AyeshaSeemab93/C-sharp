@@ -1,3 +1,4 @@
+using System.Drawing;
 namespace Exercise001
 {
     using System.Collections.Generic;
@@ -5,19 +6,22 @@ namespace Exercise001
     public class GradeRegister
     {
         private List<int> grades;
+        private List<int> points;
 
         public GradeRegister()
         {
             this.grades = new List<int>();
+            this.points = new List<int>();
         }
 
         public void AddGradeBasedOnPoints(int points)
         {
             this.grades.Add(PointsToGrades(points));
+            this.points.Add(points);
         }
 
         public int NumberOfGrades(int grade)
-        {
+        { //how many time grade eg 5 is achieved.(2 time, 3 time etc)
             int count = 0;
             foreach (int received in this.grades)
             {
@@ -61,15 +65,54 @@ namespace Exercise001
 
         public double AverageOfGrades()
         {
-            // Hint! You don't need to round the -1, but you do need it for all the other results...
-            return Math.Round(-1.0, 2); 
+            int grade = 5;
+            if (grade >= 0)
+            {
+                double sum = 0;
+                int count = 0;
+                for (int i = 0; i < grades.Count; i++)
+                {
+                    sum = sum + grades[i];
+                    count++;
+                    grade--;
+                }
+                double average = (sum / count) + 0.00;
+
+
+                return Math.Round(average, 2); /* to round the double decimal to 2 values only*/
+
+            }
+            else
+            {
+                return -1;
+            }
 
         }
 
         public double AverageOfPoints()
         {
+            int point = 0;
+            double sum = 0.00;
+            double count = 0.00;
+            if (point >= 0 && point <= 100)
+            {
 
-            return Math.Round(-1.0, 2); 
+                foreach (double allpoints in points)
+                {
+                    sum = sum + allpoints;
+                    count++;
+                }
+                double average = (sum / count) + 0.00;
+                return Math.Round(average, 2);
+
+            }
+
+            else
+            {
+                return Math.Round(-1.0);
+            }
+
+
 
         }
     }
