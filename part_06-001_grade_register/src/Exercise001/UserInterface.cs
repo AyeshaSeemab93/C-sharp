@@ -12,19 +12,10 @@ namespace Exercise001
 
         public void Start()
         {
+
             ReadPoints();
             Console.WriteLine("");
             PrintGradeDistribution();
-            GradeRegister register = new GradeRegister();
-
-
-
-            register.AddGradeBasedOnPoints(93);
-            register.AddGradeBasedOnPoints(91);
-            register.AddGradeBasedOnPoints(92);
-            Console.WriteLine("The average of points: " + register.AverageOfPoints());
-            Console.WriteLine("The average of grades: " + register.AverageOfGrades());
-
         }
 
         public void ReadPoints()
@@ -60,12 +51,25 @@ namespace Exercise001
 
                 grade = grade - 1;
             }
+            PrintAverageOfPoints();
+            PrintAverageOfGrades();
             // Print average of points & grades
 
+        }
+        public void PrintAverageOfGrades()
+        {
 
 
+            Console.WriteLine("The average of grades: " + register.AverageOfGrades());
 
         }
+        public void PrintAverageOfPoints()
+        {
+
+
+            Console.WriteLine("The average of points: " + register.AverageOfPoints());
+        }
+
         public static void PrintStars(int stars)
         {
             while (stars > 0)

@@ -8,7 +8,6 @@
 
             UserInterface ui = new UserInterface(register);
             ui.Start();
-
         }
     }
 }

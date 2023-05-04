@@ -6,18 +6,18 @@ namespace Exercise001
     public class GradeRegister
     {
         private List<int> grades;
-        private List<int> points;
+        private List<int> pointlist;
 
         public GradeRegister()
         {
             this.grades = new List<int>();
-            this.points = new List<int>();
+            this.pointlist = new List<int>();
         }
 
         public void AddGradeBasedOnPoints(int points)
         {
             this.grades.Add(PointsToGrades(points));
-            this.points.Add(points);
+            this.pointlist.Add(points);
         }
 
         public int NumberOfGrades(int grade)
@@ -65,8 +65,8 @@ namespace Exercise001
 
         public double AverageOfGrades()
         {
-            int grade = 5;
-            if (grade >= 0)
+
+            if (this.grades.Count > 0)
             {
                 double sum = 0;
                 int count = 0;
@@ -74,7 +74,7 @@ namespace Exercise001
                 {
                     sum = sum + grades[i];
                     count++;
-                    grade--;
+
                 }
                 double average = (sum / count) + 0.00;
 
@@ -84,20 +84,20 @@ namespace Exercise001
             }
             else
             {
-                return -1;
+                return Math.Round(-1.0, 2);
             }
 
         }
 
         public double AverageOfPoints()
         {
-            int point = 0;
+
             double sum = 0.00;
             double count = 0.00;
-            if (point >= 0 && point <= 100)
+            if (pointlist.Count > 0)
             {
 
-                foreach (double allpoints in points)
+                foreach (double allpoints in pointlist)
                 {
                     sum = sum + allpoints;
                     count++;
@@ -109,7 +109,7 @@ namespace Exercise001
 
             else
             {
-                return Math.Round(-1.0);
+                return Math.Round(-1.0, 2);
             }
 
 
