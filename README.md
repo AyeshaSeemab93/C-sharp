@@ -1,5 +1,4 @@
 # C-Coding-Exercises
-# C-Sharp-Exercises
 
 ## Overview
 
