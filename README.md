@@ -48,12 +48,4 @@ These exercises cover fundamental concepts of C# programming. They include topic
 
 For more advanced C# exercises, please check out the separate repository [CSharp-AdvanceExercises](https://github.com/AyeshaSeemab93/CSharp-AdvanceExercises).
 
-## Contributing
 
-If you find any issues with the exercises or want to contribute additional exercises, feel free to submit pull requests or open issues. Your contributions are highly appreciated.
-
-## License
-
-This collection of basic C# exercises is licensed under the [MIT License](LICENSE), allowing you to use, modify, and distribute the code freely.
-
-Happy coding!
